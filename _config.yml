@@ -33,16 +33,16 @@ plugins:
   - jekyll-feed
 
 # defaults section contains the necessary settings for the posts, without adding the frontmatter to every post
-defaults:
-  -
-    scope:
-    # path is empty b'coz it applies to every document on the site directory
-      path: ""
-      # type is posts so that it only applies to the posts directory
-      type: "_posts"
-    values:
-      layout: "post"
-      permalink: /:categories/:title
+# defaults:
+#   -
+#     scope:
+#     # path is empty b'coz it applies to every document on the site directory
+#       path: ""
+#       # type is posts so that it only applies to the posts directory
+#       type: "_posts"
+#     values:
+#       layout: "post"
+#       permalink: /:categories/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default.

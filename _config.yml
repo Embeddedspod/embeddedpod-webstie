@@ -40,6 +40,14 @@ defaults:
     values:
       layout: page
       permalink: /:basename
+  - scope:
+    # path is empty b'coz it applies to every document on the site directory
+      path:
+      # type is posts so that it only applies to the posts directory
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /:categories/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default.

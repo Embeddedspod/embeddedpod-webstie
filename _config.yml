@@ -37,9 +37,9 @@ defaults:
   -
     scope:
     # path is empty b'coz it applies to every document on the site directory
-      path:
+      path: ""
       # type is posts so that it only applies to the posts directory
-      type: "posts"
+      type: "_posts"
     values:
       layout: "post"
       permalink: /:categories/:title

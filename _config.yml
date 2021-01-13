@@ -32,17 +32,14 @@ url: "https://embeddedspod.github.io" # the base hostname & protocol for your si
 plugins:
   - jekyll-feed
 
+# defaults section contains the necessary settings for the posts, without adding the frontmatter to every post
 defaults:
-  # - scope:
-  #     path: "pages"
-  #   values:
-  #     layout: page
-  #     permalink: /:basename
-  - scope:
+  -
+    scope:
     # path is empty b'coz it applies to every document on the site directory
-      path: 
+      path:
       # type is posts so that it only applies to the posts directory
-      type: post
+      type: "posts"
     values:
       layout: "post"
       permalink: /:categories/:title

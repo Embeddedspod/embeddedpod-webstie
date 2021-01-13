@@ -35,16 +35,17 @@ plugins:
   - jekyll-feed
 
 defaults:
-  - scope:
-      path: "pages"
-    values:
-      layout: page
-      permalink: /:basename
-  - scope:
+  # - scope:
+  #     path: "pages"
+  #   values:
+  #     layout: page
+  #     permalink: /:basename
+  - 
+    scope:
     # path is empty b'coz it applies to every document on the site directory
-      path:
+      path: "/_posts"
       # type is posts so that it only applies to the posts directory
-      type: "posts"
+      # type: 
     values:
       layout: "post"
       permalink: /:categories/:title

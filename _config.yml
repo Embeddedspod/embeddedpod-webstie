@@ -22,8 +22,8 @@ title: Embeddedpod
 email: embeddedpod@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 ...
-# baseurl: "/website-minima-theme" # the subpath of your site, e.g. /blog
-url: "https://embeddedspod.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://embeddedpod.com # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '' # the subpath of your site, e.g. /blog
 # twitter_username: jekyllrb
 # github_username:  jekyll
 

@@ -7,13 +7,13 @@ author: Sandeep CHVS
 permalink: /:title
 ---
 
-![Overview of Communications](images/1.png)
+![Overview of Communications](images/1.jpg)
 
 In present times, it is hard to imagine any industry without embedded architecture involvement. But while talking about communication, we typically hear terms like protocol, driver, stack etc. that we are not generally aware. Well, let me dramatize and explain those concepts to understand device communication.
 
 Devices need to communicate with themselves to respond with external devices to operate or to share the data. Communication between devices can be viewed as transferring data in the form of voltage through a physical medium. When the transfer occurs within the device, we call it __Intra communication__ (From processor to I/O’s in a microcontroller). If the transfer is between two separate devices, it is known as __Inter communication__ (From one microcontroller to another). For the data to reach the processor, both Inter and Intra communication happens.
 
-![Difference between intra and inter communication](images/2.png)
+![Difference between intra and inter communication](images/2.jpg)
 
 Transfer of data is classified into two types Serial and Parallel communication,
 
@@ -25,7 +25,7 @@ __Parallel Communication:__ In parallel communication, messages are transferred 
 
 In this type of communication, the data synchronization errors are found more frequently; Crosstalk is observed due to data transfer from multiple cables, i.e., due to electromagnetic flux created in the wires that result in the manipulated data.
 
-![serial & parallel communications](images/3.png)
+![serial & parallel communications](images/3.jpg)
 
 This serial and parallel communication is just related to the physical medium to transfer the data.
 

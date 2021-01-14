@@ -1,8 +1,10 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
 
-__this is the about page.__
+Hello Everyone,
+
+Welcome to the Electronics blog. Here we will learn and explore about the various electronics topics.
 

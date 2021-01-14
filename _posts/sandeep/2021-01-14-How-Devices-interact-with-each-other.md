@@ -2,7 +2,7 @@
 layout: post
 title: How Devices interact with each other?
 # subtitle: subtitle
-date: 2021-01-14 12:26:55 +0530
+date: 2021-01-15 06:00:00 +0530
 author: Sandeep CHVS
 permalink: /:title
 ---

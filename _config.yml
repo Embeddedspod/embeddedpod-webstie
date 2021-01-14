@@ -32,8 +32,8 @@ analytics:
 
 # Build settings
 # theme: minima
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
 
 # defaults section contains the necessary settings for the posts, without adding the frontmatter to every post
 # defaults:

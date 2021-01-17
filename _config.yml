@@ -29,4 +29,4 @@ plugins:
   - rouge
 
 # add google analytics id here in the future
-# analytics:
+google_analytics: G-8VMW8HHHJM

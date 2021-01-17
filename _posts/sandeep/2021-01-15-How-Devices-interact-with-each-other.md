@@ -4,6 +4,7 @@ title: How Devices interact with each other?
 # subtitle: subtitle
 date: 2021-01-15 06:00:00 +0530
 author: Sandeep CHVS
+category: Communication
 permalink: /:title
 ---
 

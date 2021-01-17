@@ -29,4 +29,15 @@ plugins:
   - rouge
 
 # add google analytics id here in the future
-google_analytics: G-8VMW8HHHJM
+google_analytics:   G-8VMW8HHHJM
+
+# defaults:
+#   -
+#     scope:
+#     # path is empty b'coz it applies to every document on the site directory
+#       path:
+#       # type is posts so that it only applies to the posts directory
+#       type: "posts"
+#     values:
+#       layout: "post"
+#       permalink: /:title
